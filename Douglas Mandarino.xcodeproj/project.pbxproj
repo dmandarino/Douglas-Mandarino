@@ -20,18 +20,19 @@
 		5A18B0731AE73841008CA5D5 /* CircleTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A18B0721AE73841008CA5D5 /* CircleTransitionAnimator.swift */; };
 		5A18B0791AE758AD008CA5D5 /* bepid.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A18B0781AE758AD008CA5D5 /* bepid.png */; };
 		5A18B07F1AE76386008CA5D5 /* testFlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A18B07E1AE76386008CA5D5 /* testFlight.png */; };
+		5AAF0D811AE8396300060D59 /* b2w.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AAF0D801AE8396300060D59 /* b2w.png */; };
 		5ACD36A11ADDA52D0076AB33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACD36A01ADDA52D0076AB33 /* AppDelegate.swift */; };
 		5ACD36A61ADDA52D0076AB33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ACD36A41ADDA52D0076AB33 /* Main.storyboard */; };
 		5ACD36A81ADDA52D0076AB33 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ACD36A71ADDA52D0076AB33 /* Images.xcassets */; };
 		5ACD36AB1ADDA52D0076AB33 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5ACD36A91ADDA52D0076AB33 /* LaunchScreen.xib */; };
 		5ACD36B71ADDA52D0076AB33 /* Douglas_MandarinoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACD36B61ADDA52D0076AB33 /* Douglas_MandarinoTests.swift */; };
-		5ACD36C11ADDA5AD0076AB33 /* IMCPedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACD36C01ADDA5AD0076AB33 /* IMCPedController.swift */; };
 		5ACD36C61ADDB8420076AB33 /* Projects.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5ACD36C51ADDB8420076AB33 /* Projects.plist */; };
 		5ACD36D11ADDC3960076AB33 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACD36D01ADDC3960076AB33 /* TableViewController.swift */; };
 		5ACD36D31ADDC40B0076AB33 /* ProjectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACD36D21ADDC40B0076AB33 /* ProjectTableViewCell.swift */; };
 		5ACD36D81ADDF9550076AB33 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACD36D71ADDF9550076AB33 /* ProfileViewController.swift */; };
 		5ACD36E61ADEFE770076AB33 /* appleLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ACD36E51ADEFE770076AB33 /* appleLogo.png */; };
 		5ACD36E81ADF06CC0076AB33 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ACD36E71ADF06CC0076AB33 /* profile.png */; };
+		5ADC542E1AE81B83001F9A02 /* appstore.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ADC542D1AE81B83001F9A02 /* appstore.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		5A18B0721AE73841008CA5D5 /* CircleTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleTransitionAnimator.swift; sourceTree = "<group>"; };
 		5A18B0781AE758AD008CA5D5 /* bepid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bepid.png; sourceTree = "<group>"; };
 		5A18B07E1AE76386008CA5D5 /* testFlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testFlight.png; sourceTree = "<group>"; };
+		5AAF0D801AE8396300060D59 /* b2w.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b2w.png; sourceTree = "<group>"; };
 		5ACD369B1ADDA52D0076AB33 /* Douglas Mandarino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Douglas Mandarino.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ACD369F1ADDA52D0076AB33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5ACD36A01ADDA52D0076AB33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -67,13 +69,13 @@
 		5ACD36B01ADDA52D0076AB33 /* Douglas MandarinoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Douglas MandarinoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ACD36B51ADDA52D0076AB33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5ACD36B61ADDA52D0076AB33 /* Douglas_MandarinoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Douglas_MandarinoTests.swift; sourceTree = "<group>"; };
-		5ACD36C01ADDA5AD0076AB33 /* IMCPedController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IMCPedController.swift; path = controller/IMCPedController.swift; sourceTree = "<group>"; };
 		5ACD36C51ADDB8420076AB33 /* Projects.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Projects.plist; sourceTree = "<group>"; };
 		5ACD36D01ADDC3960076AB33 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		5ACD36D21ADDC40B0076AB33 /* ProjectTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectTableViewCell.swift; sourceTree = "<group>"; };
 		5ACD36D71ADDF9550076AB33 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		5ACD36E51ADEFE770076AB33 /* appleLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appleLogo.png; sourceTree = "<group>"; };
 		5ACD36E71ADF06CC0076AB33 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
+		5ADC542D1AE81B83001F9A02 /* appstore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appstore.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,8 @@
 			children = (
 				5A18B06C1AE6ED62008CA5D5 /* IMCPed.jpg */,
 				5A18B07E1AE76386008CA5D5 /* testFlight.png */,
+				5ADC542D1AE81B83001F9A02 /* appstore.png */,
+				5AAF0D801AE8396300060D59 /* b2w.png */,
 				5A18B06E1AE6ED93008CA5D5 /* GroupMatch.png */,
 			);
 			name = logos;
@@ -179,7 +183,6 @@
 				5A16C3291AE052CD00FB6AEF /* PassionsController.swift */,
 				5ACD36D01ADDC3960076AB33 /* TableViewController.swift */,
 				5A16C32B1AE067B200FB6AEF /* ProjectsViewController.swift */,
-				5ACD36C01ADDA5AD0076AB33 /* IMCPedController.swift */,
 			);
 			name = controller;
 			sourceTree = "<group>";
@@ -317,7 +320,9 @@
 				5ACD36C61ADDB8420076AB33 /* Projects.plist in Resources */,
 				5ACD36A81ADDA52D0076AB33 /* Images.xcassets in Resources */,
 				5ACD36E61ADEFE770076AB33 /* appleLogo.png in Resources */,
+				5AAF0D811AE8396300060D59 /* b2w.png in Resources */,
 				5A16C3241AE04F9400FB6AEF /* Ingredients List-32.png in Resources */,
+				5ADC542E1AE81B83001F9A02 /* appstore.png in Resources */,
 				5A16C3201AE04E8300FB6AEF /* Drop Zone-32.png in Resources */,
 				5ACD36E81ADF06CC0076AB33 /* profile.png in Resources */,
 			);
@@ -339,7 +344,6 @@
 			files = (
 				5A16C32C1AE067B200FB6AEF /* ProjectsViewController.swift in Sources */,
 				5ACD36D11ADDC3960076AB33 /* TableViewController.swift in Sources */,
-				5ACD36C11ADDA5AD0076AB33 /* IMCPedController.swift in Sources */,
 				5A18B0711AE736A0008CA5D5 /* NavigationControllerDelegate.swift in Sources */,
 				5ACD36D31ADDC40B0076AB33 /* ProjectTableViewCell.swift in Sources */,
 				5ACD36A11ADDA52D0076AB33 /* AppDelegate.swift in Sources */,
