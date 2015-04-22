@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A16C3161AE03B0D00FB6AEF /* me.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A16C3151AE03B0D00FB6AEF /* me.jpg */; };
+		5A16C3201AE04E8300FB6AEF /* Drop Zone-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A16C31F1AE04E8300FB6AEF /* Drop Zone-32.png */; };
+		5A16C3241AE04F9400FB6AEF /* Ingredients List-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A16C3211AE04F9400FB6AEF /* Ingredients List-32.png */; };
+		5A16C3251AE04F9400FB6AEF /* Reading-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A16C3221AE04F9400FB6AEF /* Reading-32.png */; };
+		5A16C3261AE04F9400FB6AEF /* User-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A16C3231AE04F9400FB6AEF /* User-32.png */; };
+		5A16C32A1AE052CD00FB6AEF /* PassionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A16C3291AE052CD00FB6AEF /* PassionsController.swift */; };
+		5A16C32C1AE067B200FB6AEF /* ProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A16C32B1AE067B200FB6AEF /* ProjectsViewController.swift */; };
+		5A18B06D1AE6ED62008CA5D5 /* IMCPed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A18B06C1AE6ED62008CA5D5 /* IMCPed.jpg */; };
+		5A18B06F1AE6ED93008CA5D5 /* GroupMatch.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A18B06E1AE6ED93008CA5D5 /* GroupMatch.png */; };
+		5A18B0711AE736A0008CA5D5 /* NavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A18B0701AE736A0008CA5D5 /* NavigationControllerDelegate.swift */; };
+		5A18B0731AE73841008CA5D5 /* CircleTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A18B0721AE73841008CA5D5 /* CircleTransitionAnimator.swift */; };
+		5A18B0791AE758AD008CA5D5 /* bepid.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A18B0781AE758AD008CA5D5 /* bepid.png */; };
+		5A18B07F1AE76386008CA5D5 /* testFlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A18B07E1AE76386008CA5D5 /* testFlight.png */; };
+		5ACD36A11ADDA52D0076AB33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACD36A01ADDA52D0076AB33 /* AppDelegate.swift */; };
+		5ACD36A61ADDA52D0076AB33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ACD36A41ADDA52D0076AB33 /* Main.storyboard */; };
+		5ACD36A81ADDA52D0076AB33 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ACD36A71ADDA52D0076AB33 /* Images.xcassets */; };
+		5ACD36AB1ADDA52D0076AB33 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5ACD36A91ADDA52D0076AB33 /* LaunchScreen.xib */; };
+		5ACD36B71ADDA52D0076AB33 /* Douglas_MandarinoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACD36B61ADDA52D0076AB33 /* Douglas_MandarinoTests.swift */; };
+		5ACD36C11ADDA5AD0076AB33 /* IMCPedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACD36C01ADDA5AD0076AB33 /* IMCPedController.swift */; };
+		5ACD36C61ADDB8420076AB33 /* Projects.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5ACD36C51ADDB8420076AB33 /* Projects.plist */; };
+		5ACD36D11ADDC3960076AB33 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACD36D01ADDC3960076AB33 /* TableViewController.swift */; };
+		5ACD36D31ADDC40B0076AB33 /* ProjectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACD36D21ADDC40B0076AB33 /* ProjectTableViewCell.swift */; };
+		5ACD36D81ADDF9550076AB33 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACD36D71ADDF9550076AB33 /* ProfileViewController.swift */; };
+		5ACD36E61ADEFE770076AB33 /* appleLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ACD36E51ADEFE770076AB33 /* appleLogo.png */; };
+		5ACD36E81ADF06CC0076AB33 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ACD36E71ADF06CC0076AB33 /* profile.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5ACD36B11ADDA52D0076AB33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5ACD36931ADDA52D0076AB33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ACD369A1ADDA52D0076AB33;
+			remoteInfo = "Douglas Mandarino";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A16C3151AE03B0D00FB6AEF /* me.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = me.jpg; sourceTree = "<group>"; };
+		5A16C31F1AE04E8300FB6AEF /* Drop Zone-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Drop Zone-32.png"; sourceTree = "<group>"; };
+		5A16C3211AE04F9400FB6AEF /* Ingredients List-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ingredients List-32.png"; sourceTree = "<group>"; };
+		5A16C3221AE04F9400FB6AEF /* Reading-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reading-32.png"; sourceTree = "<group>"; };
+		5A16C3231AE04F9400FB6AEF /* User-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "User-32.png"; sourceTree = "<group>"; };
+		5A16C3291AE052CD00FB6AEF /* PassionsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PassionsController.swift; path = controller/PassionsController.swift; sourceTree = "<group>"; };
+		5A16C32B1AE067B200FB6AEF /* ProjectsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectsViewController.swift; sourceTree = "<group>"; };
+		5A18B06C1AE6ED62008CA5D5 /* IMCPed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMCPed.jpg; sourceTree = "<group>"; };
+		5A18B06E1AE6ED93008CA5D5 /* GroupMatch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GroupMatch.png; sourceTree = "<group>"; };
+		5A18B0701AE736A0008CA5D5 /* NavigationControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationControllerDelegate.swift; sourceTree = "<group>"; };
+		5A18B0721AE73841008CA5D5 /* CircleTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleTransitionAnimator.swift; sourceTree = "<group>"; };
+		5A18B0781AE758AD008CA5D5 /* bepid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bepid.png; sourceTree = "<group>"; };
+		5A18B07E1AE76386008CA5D5 /* testFlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testFlight.png; sourceTree = "<group>"; };
+		5ACD369B1ADDA52D0076AB33 /* Douglas Mandarino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Douglas Mandarino.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ACD369F1ADDA52D0076AB33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ACD36A01ADDA52D0076AB33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5ACD36A51ADDA52D0076AB33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5ACD36A71ADDA52D0076AB33 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5ACD36AA1ADDA52D0076AB33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5ACD36B01ADDA52D0076AB33 /* Douglas MandarinoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Douglas MandarinoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ACD36B51ADDA52D0076AB33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ACD36B61ADDA52D0076AB33 /* Douglas_MandarinoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Douglas_MandarinoTests.swift; sourceTree = "<group>"; };
+		5ACD36C01ADDA5AD0076AB33 /* IMCPedController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IMCPedController.swift; path = controller/IMCPedController.swift; sourceTree = "<group>"; };
+		5ACD36C51ADDB8420076AB33 /* Projects.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Projects.plist; sourceTree = "<group>"; };
+		5ACD36D01ADDC3960076AB33 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		5ACD36D21ADDC40B0076AB33 /* ProjectTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectTableViewCell.swift; sourceTree = "<group>"; };
+		5ACD36D71ADDF9550076AB33 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		5ACD36E51ADEFE770076AB33 /* appleLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appleLogo.png; sourceTree = "<group>"; };
+		5ACD36E71ADF06CC0076AB33 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5ACD36981ADDA52D0076AB33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ACD36AD1ADDA52D0076AB33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A18B07C1AE76247008CA5D5 /* logos */ = {
+			isa = PBXGroup;
+			children = (
+				5A18B06C1AE6ED62008CA5D5 /* IMCPed.jpg */,
+				5A18B07E1AE76386008CA5D5 /* testFlight.png */,
+				5A18B06E1AE6ED93008CA5D5 /* GroupMatch.png */,
+			);
+			name = logos;
+			sourceTree = "<group>";
+		};
+		5A18B07D1AE76261008CA5D5 /* tab bar */ = {
+			isa = PBXGroup;
+			children = (
+				5A16C31F1AE04E8300FB6AEF /* Drop Zone-32.png */,
+				5A16C3211AE04F9400FB6AEF /* Ingredients List-32.png */,
+				5A16C3221AE04F9400FB6AEF /* Reading-32.png */,
+				5A16C3231AE04F9400FB6AEF /* User-32.png */,
+			);
+			name = "tab bar";
+			sourceTree = "<group>";
+		};
+		5ACD36921ADDA52D0076AB33 = {
+			isa = PBXGroup;
+			children = (
+				5ACD369D1ADDA52D0076AB33 /* Douglas Mandarino */,
+				5ACD36B31ADDA52D0076AB33 /* Douglas MandarinoTests */,
+				5ACD369C1ADDA52D0076AB33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5ACD369C1ADDA52D0076AB33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5ACD369B1ADDA52D0076AB33 /* Douglas Mandarino.app */,
+				5ACD36B01ADDA52D0076AB33 /* Douglas MandarinoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5ACD369D1ADDA52D0076AB33 /* Douglas Mandarino */ = {
+			isa = PBXGroup;
+			children = (
+				5ACD36C41ADDA5DA0076AB33 /* view */,
+				5ACD36C31ADDA5BD0076AB33 /* model */,
+				5ACD36C21ADDA5B50076AB33 /* controller */,
+				5ACD369E1ADDA52D0076AB33 /* Supporting Files */,
+			);
+			path = "Douglas Mandarino";
+			sourceTree = "<group>";
+		};
+		5ACD369E1ADDA52D0076AB33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5ACD36D61ADDF8BD0076AB33 /* images */,
+				5ACD36C71ADDB9300076AB33 /* plist */,
+				5ACD36A01ADDA52D0076AB33 /* AppDelegate.swift */,
+				5ACD36A71ADDA52D0076AB33 /* Images.xcassets */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5ACD36B31ADDA52D0076AB33 /* Douglas MandarinoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5ACD36B61ADDA52D0076AB33 /* Douglas_MandarinoTests.swift */,
+				5ACD36B41ADDA52D0076AB33 /* Supporting Files */,
+			);
+			path = "Douglas MandarinoTests";
+			sourceTree = "<group>";
+		};
+		5ACD36B41ADDA52D0076AB33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5ACD36B51ADDA52D0076AB33 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5ACD36C21ADDA5B50076AB33 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				5ACD36D71ADDF9550076AB33 /* ProfileViewController.swift */,
+				5A16C3291AE052CD00FB6AEF /* PassionsController.swift */,
+				5ACD36D01ADDC3960076AB33 /* TableViewController.swift */,
+				5A16C32B1AE067B200FB6AEF /* ProjectsViewController.swift */,
+				5ACD36C01ADDA5AD0076AB33 /* IMCPedController.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		5ACD36C31ADDA5BD0076AB33 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		5ACD36C41ADDA5DA0076AB33 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				5A18B0721AE73841008CA5D5 /* CircleTransitionAnimator.swift */,
+				5A18B0701AE736A0008CA5D5 /* NavigationControllerDelegate.swift */,
+				5ACD36D21ADDC40B0076AB33 /* ProjectTableViewCell.swift */,
+				5ACD36A41ADDA52D0076AB33 /* Main.storyboard */,
+				5ACD36A91ADDA52D0076AB33 /* LaunchScreen.xib */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		5ACD36C71ADDB9300076AB33 /* plist */ = {
+			isa = PBXGroup;
+			children = (
+				5ACD36C51ADDB8420076AB33 /* Projects.plist */,
+				5ACD369F1ADDA52D0076AB33 /* Info.plist */,
+			);
+			name = plist;
+			sourceTree = "<group>";
+		};
+		5ACD36D61ADDF8BD0076AB33 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				5ACD36E51ADEFE770076AB33 /* appleLogo.png */,
+				5A18B07D1AE76261008CA5D5 /* tab bar */,
+				5A16C3151AE03B0D00FB6AEF /* me.jpg */,
+				5ACD36E71ADF06CC0076AB33 /* profile.png */,
+				5A18B0781AE758AD008CA5D5 /* bepid.png */,
+				5A18B07C1AE76247008CA5D5 /* logos */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5ACD369A1ADDA52D0076AB33 /* Douglas Mandarino */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ACD36BA1ADDA52D0076AB33 /* Build configuration list for PBXNativeTarget "Douglas Mandarino" */;
+			buildPhases = (
+				5ACD36971ADDA52D0076AB33 /* Sources */,
+				5ACD36981ADDA52D0076AB33 /* Frameworks */,
+				5ACD36991ADDA52D0076AB33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Douglas Mandarino";
+			productName = "Douglas Mandarino";
+			productReference = 5ACD369B1ADDA52D0076AB33 /* Douglas Mandarino.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5ACD36AF1ADDA52D0076AB33 /* Douglas MandarinoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ACD36BD1ADDA52D0076AB33 /* Build configuration list for PBXNativeTarget "Douglas MandarinoTests" */;
+			buildPhases = (
+				5ACD36AC1ADDA52D0076AB33 /* Sources */,
+				5ACD36AD1ADDA52D0076AB33 /* Frameworks */,
+				5ACD36AE1ADDA52D0076AB33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5ACD36B21ADDA52D0076AB33 /* PBXTargetDependency */,
+			);
+			name = "Douglas MandarinoTests";
+			productName = "Douglas MandarinoTests";
+			productReference = 5ACD36B01ADDA52D0076AB33 /* Douglas MandarinoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5ACD36931ADDA52D0076AB33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Douglas Mandarino";
+				TargetAttributes = {
+					5ACD369A1ADDA52D0076AB33 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					5ACD36AF1ADDA52D0076AB33 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 5ACD369A1ADDA52D0076AB33;
+					};
+				};
+			};
+			buildConfigurationList = 5ACD36961ADDA52D0076AB33 /* Build configuration list for PBXProject "Douglas Mandarino" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5ACD36921ADDA52D0076AB33;
+			productRefGroup = 5ACD369C1ADDA52D0076AB33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5ACD369A1ADDA52D0076AB33 /* Douglas Mandarino */,
+				5ACD36AF1ADDA52D0076AB33 /* Douglas MandarinoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5ACD36991ADDA52D0076AB33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A18B0791AE758AD008CA5D5 /* bepid.png in Resources */,
+				5A18B07F1AE76386008CA5D5 /* testFlight.png in Resources */,
+				5ACD36A61ADDA52D0076AB33 /* Main.storyboard in Resources */,
+				5A18B06F1AE6ED93008CA5D5 /* GroupMatch.png in Resources */,
+				5ACD36AB1ADDA52D0076AB33 /* LaunchScreen.xib in Resources */,
+				5A16C3161AE03B0D00FB6AEF /* me.jpg in Resources */,
+				5A18B06D1AE6ED62008CA5D5 /* IMCPed.jpg in Resources */,
+				5A16C3261AE04F9400FB6AEF /* User-32.png in Resources */,
+				5A16C3251AE04F9400FB6AEF /* Reading-32.png in Resources */,
+				5ACD36C61ADDB8420076AB33 /* Projects.plist in Resources */,
+				5ACD36A81ADDA52D0076AB33 /* Images.xcassets in Resources */,
+				5ACD36E61ADEFE770076AB33 /* appleLogo.png in Resources */,
+				5A16C3241AE04F9400FB6AEF /* Ingredients List-32.png in Resources */,
+				5A16C3201AE04E8300FB6AEF /* Drop Zone-32.png in Resources */,
+				5ACD36E81ADF06CC0076AB33 /* profile.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ACD36AE1ADDA52D0076AB33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5ACD36971ADDA52D0076AB33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A16C32C1AE067B200FB6AEF /* ProjectsViewController.swift in Sources */,
+				5ACD36D11ADDC3960076AB33 /* TableViewController.swift in Sources */,
+				5ACD36C11ADDA5AD0076AB33 /* IMCPedController.swift in Sources */,
+				5A18B0711AE736A0008CA5D5 /* NavigationControllerDelegate.swift in Sources */,
+				5ACD36D31ADDC40B0076AB33 /* ProjectTableViewCell.swift in Sources */,
+				5ACD36A11ADDA52D0076AB33 /* AppDelegate.swift in Sources */,
+				5A18B0731AE73841008CA5D5 /* CircleTransitionAnimator.swift in Sources */,
+				5ACD36D81ADDF9550076AB33 /* ProfileViewController.swift in Sources */,
+				5A16C32A1AE052CD00FB6AEF /* PassionsController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ACD36AC1ADDA52D0076AB33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ACD36B71ADDA52D0076AB33 /* Douglas_MandarinoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5ACD36B21ADDA52D0076AB33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5ACD369A1ADDA52D0076AB33 /* Douglas Mandarino */;
+			targetProxy = 5ACD36B11ADDA52D0076AB33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5ACD36A41ADDA52D0076AB33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5ACD36A51ADDA52D0076AB33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5ACD36A91ADDA52D0076AB33 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5ACD36AA1ADDA52D0076AB33 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5ACD36B81ADDA52D0076AB33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5ACD36B91ADDA52D0076AB33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5ACD36BB1ADDA52D0076AB33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Douglas Mandarino/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5ACD36BC1ADDA52D0076AB33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Douglas Mandarino/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5ACD36BE1ADDA52D0076AB33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Douglas MandarinoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Douglas Mandarino.app/Douglas Mandarino";
+			};
+			name = Debug;
+		};
+		5ACD36BF1ADDA52D0076AB33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Douglas MandarinoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Douglas Mandarino.app/Douglas Mandarino";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5ACD36961ADDA52D0076AB33 /* Build configuration list for PBXProject "Douglas Mandarino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ACD36B81ADDA52D0076AB33 /* Debug */,
+				5ACD36B91ADDA52D0076AB33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ACD36BA1ADDA52D0076AB33 /* Build configuration list for PBXNativeTarget "Douglas Mandarino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ACD36BB1ADDA52D0076AB33 /* Debug */,
+				5ACD36BC1ADDA52D0076AB33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ACD36BD1ADDA52D0076AB33 /* Build configuration list for PBXNativeTarget "Douglas MandarinoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ACD36BE1ADDA52D0076AB33 /* Debug */,
+				5ACD36BF1ADDA52D0076AB33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5ACD36931ADDA52D0076AB33 /* Project object */;
+}
