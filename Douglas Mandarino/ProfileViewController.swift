@@ -29,6 +29,10 @@ class ProfileViewController:UIViewController {
         age.font = UIFont(name: "Avenir-Book", size: 16)
         occupationLabel.font = UIFont(name: "Avenir-Book", size: 16)
     }
+    
+    override func viewWillAppear(animated: Bool) {
+        customizeBars()
+    }   
         
 //        tableView.delegate = self
 //        tableView.dataSource! = self

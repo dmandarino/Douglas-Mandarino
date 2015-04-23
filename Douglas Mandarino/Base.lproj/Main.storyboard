@@ -19,7 +19,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iGT-oP-tNv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-963" y="-687"/>
+            <point key="canvasLocation" x="-927" y="-363"/>
         </scene>
         <!--Profile-->
         <scene sceneID="ISP-a9-bLQ">
@@ -116,7 +116,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jjd-XE-Znw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-75" y="-799"/>
+            <point key="canvasLocation" x="-606" y="-1055"/>
         </scene>
         <!--Projects-->
         <scene sceneID="12s-C8-ruH">
@@ -394,7 +394,7 @@ Break records, save it, gains coins and change the Ipp's outfit.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1d5-QU-FcG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1483.5" y="131"/>
+            <point key="canvasLocation" x="1575" y="-258"/>
         </scene>
         <!--Project View Controller-->
         <scene sceneID="58n-Gn-acO">
@@ -499,7 +499,7 @@ After that, everyone will receive that tableview and tap on what they're going t
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nUy-5K-HNE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1378.5" y="812"/>
+            <point key="canvasLocation" x="1713" y="385"/>
         </scene>
         <!--Project View Controller-->
         <scene sceneID="t1T-i8-gxc">
@@ -594,7 +594,7 @@ I have been trained, learned everything I know in JAVA and was invited to be con
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Fy-kx-ERj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="564" y="783"/>
+            <point key="canvasLocation" x="1039.5" y="744"/>
         </scene>
         <!--Project View Controller-->
         <scene sceneID="kDp-7o-qFK">
@@ -715,7 +715,7 @@ Used by our friends in our internship.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Uz6-Fy-w7o" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="702" y="-769"/>
+            <point key="canvasLocation" x="391.5" y="-732"/>
         </scene>
         <!--Project View Controller-->
         <scene sceneID="o1o-ro-DII">
@@ -804,7 +804,7 @@ It started in November. So, we only know how TO CODE FOR iOS FOR 4 MONTHS. And J
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hQv-1F-zkw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1483.5" y="-565"/>
+            <point key="canvasLocation" x="1138.5" y="-909"/>
         </scene>
         <!--Project View Controller-->
         <scene sceneID="RVW-Ow-FUb">
@@ -906,7 +906,7 @@ It is already on Test Flight wating for review in App Store.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TrL-qb-cGE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-75" y="678"/>
+            <point key="canvasLocation" x="351" y="679"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="uep-R1-Zzj">
@@ -979,11 +979,10 @@ It is already on Test Flight wating for review in App Store.</string>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Background" image="Reading-32.png" id="X49-qf-UWf"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8wj-7S-yFq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1882.5" y="1031"/>
+            <point key="canvasLocation" x="-1729.5" y="859"/>
         </scene>
     </scenes>
     <resources>

@@ -40,7 +40,6 @@
 		5ACD36D31ADDC40B0076AB33 /* ProjectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACD36D21ADDC40B0076AB33 /* ProjectTableViewCell.swift */; };
 		5ACD36D81ADDF9550076AB33 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACD36D71ADDF9550076AB33 /* ProfileViewController.swift */; };
 		5ACD36E61ADEFE770076AB33 /* appleLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ACD36E51ADEFE770076AB33 /* appleLogo.png */; };
-		5ACD36E81ADF06CC0076AB33 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ACD36E71ADF06CC0076AB33 /* profile.png */; };
 		5ADC542E1AE81B83001F9A02 /* appstore.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ADC542D1AE81B83001F9A02 /* appstore.png */; };
 /* End PBXBuildFile section */
 
@@ -92,7 +91,6 @@
 		5ACD36D21ADDC40B0076AB33 /* ProjectTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectTableViewCell.swift; sourceTree = "<group>"; };
 		5ACD36D71ADDF9550076AB33 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		5ACD36E51ADEFE770076AB33 /* appleLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appleLogo.png; sourceTree = "<group>"; };
-		5ACD36E71ADF06CC0076AB33 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
 		5ADC542D1AE81B83001F9A02 /* appstore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appstore.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -246,10 +244,9 @@
 		5ACD36D61ADDF8BD0076AB33 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				5ACD36E51ADEFE770076AB33 /* appleLogo.png */,
 				5A18B07D1AE76261008CA5D5 /* tab bar */,
 				5A16C3151AE03B0D00FB6AEF /* me.jpg */,
-				5ACD36E71ADF06CC0076AB33 /* profile.png */,
+				5ACD36E51ADEFE770076AB33 /* appleLogo.png */,
 				5A18B07C1AE76247008CA5D5 /* logos */,
 			);
 			name = images;
@@ -359,7 +356,6 @@
 				5AAF0D831AE8402D00060D59 /* b2wBrands.jpg in Resources */,
 				5A16C3201AE04E8300FB6AEF /* Drop Zone-32.png in Resources */,
 				5AAF0D911AE87DCD00060D59 /* swift.png in Resources */,
-				5ACD36E81ADF06CC0076AB33 /* profile.png in Resources */,
 				5AAF0D901AE87DCD00060D59 /* sprite_kit.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

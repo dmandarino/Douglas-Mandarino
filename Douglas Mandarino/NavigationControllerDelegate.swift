@@ -11,6 +11,8 @@ import UIKit
 
 class NavigationControllerDelegate: NSObject, UINavigationControllerDelegate {
     
+    var interactionController: UIPercentDrivenInteractiveTransition?
+    
     func navigationController(navigationController: UINavigationController,
         animationControllerForOperation operation: UINavigationControllerOperation,
         fromViewController fromVC: UIViewController,

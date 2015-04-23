@@ -16,6 +16,9 @@ class PassionsController:UIViewController {
         customizeBars()
     }
 
+    override func viewWillAppear(animated: Bool) {
+        customizeBars()
+    }
     
     private func customizeBars() {
         var nav = navigationController?.navigationBar
