@@ -30,6 +30,8 @@
 		5AAF0D931AE87E2500060D59 /* objective_c.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AAF0D921AE87E2500060D59 /* objective_c.png */; };
 		5AAF0D951AE87FE600060D59 /* bepid.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AAF0D941AE87FE600060D59 /* bepid.png */; };
 		5AAF0D971AE884EA00060D59 /* friendly.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AAF0D961AE884EA00060D59 /* friendly.png */; };
+		5AAF0D991AE9798800060D59 /* BackgroundChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAF0D981AE9798800060D59 /* BackgroundChartView.swift */; };
+		5AAF0D9B1AE97B2F00060D59 /* BackgroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAF0D9A1AE97B2F00060D59 /* BackgroundViewController.swift */; };
 		5ACD36A11ADDA52D0076AB33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACD36A01ADDA52D0076AB33 /* AppDelegate.swift */; };
 		5ACD36A61ADDA52D0076AB33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ACD36A41ADDA52D0076AB33 /* Main.storyboard */; };
 		5ACD36A81ADDA52D0076AB33 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ACD36A71ADDA52D0076AB33 /* Images.xcassets */; };
@@ -77,6 +79,8 @@
 		5AAF0D921AE87E2500060D59 /* objective_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = objective_c.png; path = images/objective_c.png; sourceTree = "<group>"; };
 		5AAF0D941AE87FE600060D59 /* bepid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bepid.png; sourceTree = "<group>"; };
 		5AAF0D961AE884EA00060D59 /* friendly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = friendly.png; path = images/friendly.png; sourceTree = "<group>"; };
+		5AAF0D981AE9798800060D59 /* BackgroundChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BackgroundChartView.swift; path = controller/BackgroundChartView.swift; sourceTree = "<group>"; };
+		5AAF0D9A1AE97B2F00060D59 /* BackgroundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BackgroundViewController.swift; path = controller/BackgroundViewController.swift; sourceTree = "<group>"; };
 		5ACD369B1ADDA52D0076AB33 /* Douglas Mandarino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Douglas Mandarino.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ACD369F1ADDA52D0076AB33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5ACD36A01ADDA52D0076AB33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -207,6 +211,7 @@
 			children = (
 				5ACD36D71ADDF9550076AB33 /* ProfileViewController.swift */,
 				5A16C3291AE052CD00FB6AEF /* PassionsController.swift */,
+				5AAF0D9A1AE97B2F00060D59 /* BackgroundViewController.swift */,
 				5ACD36D01ADDC3960076AB33 /* TableViewController.swift */,
 				5A16C32B1AE067B200FB6AEF /* ProjectsViewController.swift */,
 			);
@@ -226,6 +231,7 @@
 				5A18B0721AE73841008CA5D5 /* CircleTransitionAnimator.swift */,
 				5A18B0701AE736A0008CA5D5 /* NavigationControllerDelegate.swift */,
 				5ACD36D21ADDC40B0076AB33 /* ProjectTableViewCell.swift */,
+				5AAF0D981AE9798800060D59 /* BackgroundChartView.swift */,
 				5ACD36A41ADDA52D0076AB33 /* Main.storyboard */,
 				5ACD36A91ADDA52D0076AB33 /* LaunchScreen.xib */,
 			);
@@ -376,6 +382,8 @@
 			files = (
 				5A16C32C1AE067B200FB6AEF /* ProjectsViewController.swift in Sources */,
 				5ACD36D11ADDC3960076AB33 /* TableViewController.swift in Sources */,
+				5AAF0D9B1AE97B2F00060D59 /* BackgroundViewController.swift in Sources */,
+				5AAF0D991AE9798800060D59 /* BackgroundChartView.swift in Sources */,
 				5A18B0711AE736A0008CA5D5 /* NavigationControllerDelegate.swift in Sources */,
 				5ACD36D31ADDC40B0076AB33 /* ProjectTableViewCell.swift in Sources */,
 				5ACD36A11ADDA52D0076AB33 /* AppDelegate.swift in Sources */,
