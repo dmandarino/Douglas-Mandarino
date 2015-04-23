@@ -21,7 +21,7 @@
             </objects>
             <point key="canvasLocation" x="-963" y="-687"/>
         </scene>
-        <!--Profile View Controller-->
+        <!--Profile-->
         <scene sceneID="ISP-a9-bLQ">
             <objects>
                 <viewController id="1Zf-5S-TAX" customClass="ProfileViewController" customModule="Douglas_Mandarino" customModuleProvider="target" sceneMemberID="viewController">
@@ -107,7 +107,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" id="4ki-yG-FXZ"/>
+                    <navigationItem key="navigationItem" title="Profile" id="4ki-yG-FXZ"/>
                     <connections>
                         <outlet property="age" destination="fvl-lz-6U1" id="28Q-ol-YRS"/>
                         <outlet property="name" destination="T8h-Os-sCZ" id="bQe-Ac-Bla"/>
@@ -137,7 +137,7 @@
             </objects>
             <point key="canvasLocation" x="-67.5" y="-23"/>
         </scene>
-        <!--Project View Controller-->
+        <!--Projects-->
         <scene sceneID="KwE-76-eww">
             <objects>
                 <viewController id="Kil-Zy-zbu" customClass="ProjectViewController" customModule="Douglas_Mandarino" customModuleProvider="target" sceneMemberID="viewController">
@@ -175,12 +175,15 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="caB-MN-nJr">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" image="GroupMatch.png">
+                                <state key="normal" image="ipp.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="211" y="242" width="72" height="67"/>
                                 </variation>
+                                <connections>
+                                    <segue destination="HGw-AJ-1mn" kind="show" id="yHv-gu-gkC"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FOm-8b-jmi">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -224,6 +227,23 @@
                                     <rect key="frame" x="111" y="64" width="178" height="50"/>
                                 </variation>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7WY-o6-g1I">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="All apps were developed in the last 4 months of studying iOS">
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <rect key="frame" x="30" y="506" width="341" height="45"/>
+                                </variation>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <variation key="default">
@@ -235,6 +255,7 @@
                                 <exclude reference="ZEM-Eq-Q1W"/>
                                 <exclude reference="PNJ-vP-Jy8"/>
                                 <exclude reference="pij-uv-ub1"/>
+                                <exclude reference="7WY-o6-g1I"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -246,10 +267,11 @@
                                 <include reference="ZEM-Eq-Q1W"/>
                                 <include reference="PNJ-vP-Jy8"/>
                                 <include reference="pij-uv-ub1"/>
+                                <include reference="7WY-o6-g1I"/>
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" id="chb-yC-FhV"/>
+                    <navigationItem key="navigationItem" title="Projects" id="chb-yC-FhV"/>
                     <connections>
                         <outlet property="buttonIMC" destination="Sgb-ff-WG1" id="CTY-3o-hNC"/>
                         <outlet property="titleProject" destination="pij-uv-ub1" id="3Ox-59-jWT"/>
@@ -258,6 +280,120 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AXP-fE-0hI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="702" y="-23"/>
+        </scene>
+        <!--Project View Controller-->
+        <scene sceneID="1gd-48-CNZ">
+            <objects>
+                <viewController id="HGw-AJ-1mn" customClass="ProjectViewController" customModule="Douglas_Mandarino" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rdE-0T-btC"/>
+                        <viewControllerLayoutGuide type="bottom" id="8TJ-V9-fdU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BRa-pd-HbZ">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0EL-3s-uSJ">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="ipp.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="49" y="147" width="160" height="160"/>
+                                </variation>
+                                <connections>
+                                    <action selector="circleTapped:" destination="lbc-wg-41v" eventType="touchUpInside" id="0Lp-5T-CKW"/>
+                                    <action selector="circleTapped:" destination="HGw-AJ-1mn" eventType="touchUpInside" id="KrQ-72-Zjp"/>
+                                    <action selector="circleTapped:" destination="6TN-xw-OiN" eventType="touchUpInside" id="qV4-75-vwS"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="oS1-P9-Vje">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">A challenge was given to us to study and learn Swift Language.
+
+We had just 15 days to implement it.
+
+So Group Match was born. An app to help people to arrange a meeting. Save your schedule and the app will use MPC to get all free time you and your group have in common. It is already on App Store.
+
+Used by our friends in our internship.</string>
+                                <color key="textColor" red="0.12941176469999999" green="0.1843137255" blue="0.2470588235" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="49" y="315" width="302" height="199"/>
+                                </variation>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Group Match" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jtC-yn-7Iy">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" red="0.7686274509803922" green="0.086274509803921567" blue="0.058823529411764705" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="110" y="64" width="178" height="50"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap on app's icon to get back" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MdN-Qf-anX">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.87450980389999999" green="0.20392156859999999" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="86" y="522" width="228" height="21"/>
+                                </variation>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="plist.png" translatesAutoresizingMaskIntoConstraints="NO" id="IIw-Md-ZbF">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="294" y="187" width="56" height="56"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="testFlight.png" translatesAutoresizingMaskIntoConstraints="NO" id="z01-Yc-Cj5">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="297" y="256" width="54" height="51"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="objective_c.png" translatesAutoresizingMaskIntoConstraints="NO" id="Qyh-9u-1Kf">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="231" y="256" width="50" height="51"/>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="0EL-3s-uSJ"/>
+                                <exclude reference="oS1-P9-Vje"/>
+                                <exclude reference="jtC-yn-7Iy"/>
+                                <exclude reference="MdN-Qf-anX"/>
+                                <exclude reference="IIw-Md-ZbF"/>
+                                <exclude reference="z01-Yc-Cj5"/>
+                                <exclude reference="Qyh-9u-1Kf"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="0EL-3s-uSJ"/>
+                                <include reference="oS1-P9-Vje"/>
+                                <include reference="jtC-yn-7Iy"/>
+                                <include reference="MdN-Qf-anX"/>
+                                <include reference="IIw-Md-ZbF"/>
+                                <include reference="z01-Yc-Cj5"/>
+                                <include reference="Qyh-9u-1Kf"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="buttonIMC" destination="0EL-3s-uSJ" id="8vB-Bl-t7r"/>
+                        <outlet property="infoLabel" destination="MdN-Qf-anX" id="BD8-fG-sUZ"/>
+                        <outlet property="textViewIMC" destination="oS1-P9-Vje" id="TgP-8l-VpU"/>
+                        <outlet property="titleProject" destination="jtC-yn-7Iy" id="7ON-yO-jF5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1d5-QU-FcG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1483.5" y="131"/>
         </scene>
         <!--Project View Controller-->
         <scene sceneID="t1T-i8-gxc">
@@ -270,28 +406,19 @@
                     <view key="view" contentMode="scaleToFill" id="htC-oL-0e5">
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="kEv-fk-xt2">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">As a request of a Medicine Student, IMC Ped was created to help doctors, even more the pediatricians, to calculate the BMI of the child based on his sex, age, weight and highness.
-
-It is already on Test Flight wating fo review in App Store.</string>
-                                <color key="textColor" red="0.12941176469999999" green="0.1843137255" blue="0.2470588235" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c7t-Bi-lj8">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="b2w.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="49" y="213" width="302" height="309"/>
+                                    <rect key="frame" x="49" y="88" width="302" height="99"/>
                                 </variation>
-                            </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap on icon to get back" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kEv-xy-WEf">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.87450980389999999" green="0.20392156859999999" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="110" y="530" width="181" height="21"/>
-                                </variation>
-                            </label>
+                                <connections>
+                                    <action selector="circleTapped:" destination="lbc-wg-41v" eventType="touchUpInside" id="PKo-oX-CLr"/>
+                                    <action selector="circleTapped:" destination="GuK-7w-Q8K" eventType="touchUpInside" id="djy-fS-Gar"/>
+                                </connections>
+                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hg2-m8-IwT">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
@@ -301,35 +428,54 @@ It is already on Test Flight wating fo review in App Store.</string>
                                     <rect key="frame" x="111" y="72" width="178" height="50"/>
                                 </variation>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c7t-Bi-lj8">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" image="b2w.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="kEv-fk-xt2">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">B2W is the greatest e-commerce service in Latin America.
+
+There I have the pleasure to work with Customer API in the most accessed e-commerce in Brazil.
+
+I have been trained, learned everything I know in JAVA and was invited to be contracted despite the fact that I am still a undergraduated student. But as it would affect my formation, I had to stay as a intern and than I went to BEPiD, to become a iOS Developer</string>
+                                <color key="textColor" red="0.12941176469999999" green="0.1843137255" blue="0.2470588235" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="49" y="88" width="302" height="108"/>
+                                    <rect key="frame" x="49" y="316" width="302" height="198"/>
                                 </variation>
-                                <connections>
-                                    <action selector="circleTapped:" destination="lbc-wg-41v" eventType="touchUpInside" id="PKo-oX-CLr"/>
-                                    <action selector="circleTapped:" destination="GuK-7w-Q8K" eventType="touchUpInside" id="djy-fS-Gar"/>
-                                </connections>
-                            </button>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="b2wBrands.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="euv-VW-hZa">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="49" y="210" width="301" height="95"/>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap on icon to get back" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kEv-xy-WEf">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.87450980389999999" green="0.20392156859999999" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="109" y="522" width="181" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="kEv-fk-xt2"/>
-                                <exclude reference="kEv-xy-WEf"/>
-                                <exclude reference="hg2-m8-IwT"/>
                                 <exclude reference="c7t-Bi-lj8"/>
+                                <exclude reference="hg2-m8-IwT"/>
+                                <exclude reference="kEv-fk-xt2"/>
+                                <exclude reference="euv-VW-hZa"/>
+                                <exclude reference="kEv-xy-WEf"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
-                                <include reference="kEv-fk-xt2"/>
-                                <include reference="kEv-xy-WEf"/>
-                                <include reference="hg2-m8-IwT"/>
                                 <include reference="c7t-Bi-lj8"/>
+                                <include reference="hg2-m8-IwT"/>
+                                <include reference="kEv-fk-xt2"/>
+                                <include reference="euv-VW-hZa"/>
+                                <include reference="kEv-xy-WEf"/>
                             </mask>
                         </variation>
                     </view>
@@ -376,7 +522,7 @@ It is already on Test Flight wating fo review in App Store.</string>
 
 We had just 15 days to implement it.
 
-So Group Match was born. An app that to help people to arrange a meeting. Save your schedule and the app will use MPC to get all free time you and your group have in common. It is already on App Store.
+So Group Match was born. An app to help people to arrange a meeting. Save your schedule and the app will use MPC to get all free time you and your group have in common. It is already on App Store.
 
 Used by our friends in our internship.</string>
                                 <color key="textColor" red="0.12941176469999999" green="0.1843137255" blue="0.2470588235" alpha="1" colorSpace="calibratedRGB"/>
@@ -389,7 +535,7 @@ Used by our friends in our internship.</string>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appstore.png" translatesAutoresizingMaskIntoConstraints="NO" id="sOe-s7-Itg">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="295" y="251" width="56" height="56"/>
+                                    <rect key="frame" x="293" y="255" width="61" height="61"/>
                                 </variation>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Group Match" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vDb-hz-ETn">
@@ -401,15 +547,33 @@ Used by our friends in our internship.</string>
                                     <rect key="frame" x="111" y="64" width="178" height="50"/>
                                 </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap on icon to get back" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="txA-Kl-3M0">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap on app's icon to get back" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="txA-Kl-3M0">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.87450980389999999" green="0.20392156859999999" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="110" y="522" width="181" height="21"/>
+                                    <rect key="frame" x="86" y="522" width="228" height="21"/>
                                 </variation>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="json.png" translatesAutoresizingMaskIntoConstraints="NO" id="dhA-mw-N3w">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="218" y="191" width="71" height="56"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swift.png" translatesAutoresizingMaskIntoConstraints="NO" id="njX-vU-EAa">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="295" y="191" width="56" height="56"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="multipeer.png" translatesAutoresizingMaskIntoConstraints="NO" id="BTR-6l-jaU">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="225" y="260" width="56" height="52"/>
+                                </variation>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <variation key="default">
@@ -419,6 +583,9 @@ Used by our friends in our internship.</string>
                                 <exclude reference="sOe-s7-Itg"/>
                                 <exclude reference="vDb-hz-ETn"/>
                                 <exclude reference="txA-Kl-3M0"/>
+                                <exclude reference="dhA-mw-N3w"/>
+                                <exclude reference="njX-vU-EAa"/>
+                                <exclude reference="BTR-6l-jaU"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -428,6 +595,9 @@ Used by our friends in our internship.</string>
                                 <include reference="sOe-s7-Itg"/>
                                 <include reference="vDb-hz-ETn"/>
                                 <include reference="txA-Kl-3M0"/>
+                                <include reference="dhA-mw-N3w"/>
+                                <include reference="njX-vU-EAa"/>
+                                <include reference="BTR-6l-jaU"/>
                             </mask>
                         </variation>
                     </view>
@@ -453,15 +623,6 @@ Used by our friends in our internship.</string>
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap on icon to get back" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lRW-dC-pRf">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.87450980389999999" green="0.20392156859999999" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="109" y="522" width="181" height="21"/>
-                                </variation>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ulp-bY-IXq">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" image="bepid.png">
@@ -479,7 +640,7 @@ Used by our friends in our internship.</string>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="UWV-TI-fNi">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">A Brazilian program to train and create iOS developers in colaboration with Apple.
+                                <string key="text">A Brazilian program in colaboration with Apple, to train and create iOS developers.
 
 We use our creativity and everything we learn to create apps. There were far more than 400 curriculums to take a place in the program. But only 80 got it.
 
@@ -491,20 +652,40 @@ It started in November. So, we only know how TO CODE FOR iOS FOR 4 MONTHS. And J
                                     <rect key="frame" x="49" y="213" width="302" height="301"/>
                                 </variation>
                             </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W4T-Bp-egh">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="179" y="72" width="64" height="27"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap on app's icon to get back" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lRW-dC-pRf">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.87450980389999999" green="0.20392156859999999" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="97" y="522" width="228" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="lRW-dC-pRf"/>
                                 <exclude reference="Ulp-bY-IXq"/>
                                 <exclude reference="UWV-TI-fNi"/>
+                                <exclude reference="W4T-Bp-egh"/>
+                                <exclude reference="lRW-dC-pRf"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
-                                <include reference="lRW-dC-pRf"/>
                                 <include reference="Ulp-bY-IXq"/>
                                 <include reference="UWV-TI-fNi"/>
+                                <include reference="W4T-Bp-egh"/>
+                                <include reference="lRW-dC-pRf"/>
                             </mask>
                         </variation>
                     </view>
@@ -512,6 +693,7 @@ It started in November. So, we only know how TO CODE FOR iOS FOR 4 MONTHS. And J
                         <outlet property="buttonIMC" destination="Ulp-bY-IXq" id="2Zj-JZ-6ea"/>
                         <outlet property="infoLabel" destination="lRW-dC-pRf" id="WnJ-d3-le4"/>
                         <outlet property="textViewIMC" destination="UWV-TI-fNi" id="DIc-gu-3x3"/>
+                        <outlet property="titleProject" destination="W4T-Bp-egh" id="1fl-qA-PKY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hQv-1F-zkw" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -533,9 +715,9 @@ It started in November. So, we only know how TO CODE FOR iOS FOR 4 MONTHS. And J
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="Ifj-5c-wbF">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">As a request of a Medicine Student, IMC Ped was created to help doctors, even more the pediatricians, to calculate the BMI of the child based on his sex, age, weight and highness.
+                                <string key="text">As a request of a Medicine Student, IMC Ped was created to help doctors, even more the pediatricians, to calculate the child's BMI based on his/her genre, age, weight and hight.
 
-It is already on Test Flight wating fo review in App Store.</string>
+It is already on Test Flight wating for review in App Store.</string>
                                 <color key="textColor" red="0.12941176470588237" green="0.18431372549019609" blue="0.24705882352941178" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -546,7 +728,7 @@ It is already on Test Flight wating fo review in App Store.</string>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="testFlight.png" translatesAutoresizingMaskIntoConstraints="NO" id="AvH-a2-54h">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="297" y="252" width="54" height="51"/>
+                                    <rect key="frame" x="297" y="247" width="60" height="56"/>
                                 </variation>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hc6-ML-Oai">
@@ -561,13 +743,13 @@ It is already on Test Flight wating fo review in App Store.</string>
                                     <action selector="circleTapped:" destination="lbc-wg-41v" eventType="touchUpInside" id="8Dn-el-fCg"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap on icon to get back" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qkV-Qf-6SG">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap on app's icon to get back" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qkV-Qf-6SG">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.87450980389999999" green="0.20392156859999999" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="110" y="522" width="181" height="21"/>
+                                    <rect key="frame" x="86" y="522" width="228" height="21"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IMC Ped" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VZd-Hj-GSk">
@@ -579,6 +761,12 @@ It is already on Test Flight wating fo review in App Store.</string>
                                     <rect key="frame" x="111" y="64" width="178" height="50"/>
                                 </variation>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swift.png" translatesAutoresizingMaskIntoConstraints="NO" id="1BR-0c-hGq">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="226" y="247" width="56" height="56"/>
+                                </variation>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <variation key="default">
@@ -588,6 +776,7 @@ It is already on Test Flight wating fo review in App Store.</string>
                                 <exclude reference="hc6-ML-Oai"/>
                                 <exclude reference="qkV-Qf-6SG"/>
                                 <exclude reference="VZd-Hj-GSk"/>
+                                <exclude reference="1BR-0c-hGq"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -597,6 +786,7 @@ It is already on Test Flight wating fo review in App Store.</string>
                                 <include reference="hc6-ML-Oai"/>
                                 <include reference="qkV-Qf-6SG"/>
                                 <include reference="VZd-Hj-GSk"/>
+                                <include reference="1BR-0c-hGq"/>
                             </mask>
                         </variation>
                     </view>
@@ -699,8 +889,15 @@ It is already on Test Flight wating fo review in App Store.</string>
         <image name="User-32.png" width="32" height="32"/>
         <image name="appstore.png" width="512" height="512"/>
         <image name="b2w.png" width="646" height="220"/>
+        <image name="b2wBrands.jpg" width="800" height="262"/>
         <image name="bepid.png" width="301" height="139"/>
+        <image name="ipp.png" width="300" height="300"/>
+        <image name="json.png" width="600" height="600"/>
         <image name="me.jpg" width="640" height="640"/>
+        <image name="multipeer.png" width="150" height="150"/>
+        <image name="objective_c.png" width="500" height="500"/>
+        <image name="plist.png" width="128" height="128"/>
+        <image name="swift.png" width="256" height="256"/>
         <image name="testFlight.png" width="191" height="191"/>
     </resources>
 </document>

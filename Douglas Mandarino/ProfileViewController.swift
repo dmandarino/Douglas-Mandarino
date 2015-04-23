@@ -17,21 +17,10 @@ class ProfileViewController:UIViewController {
     @IBOutlet weak var name: UILabel!
     @IBOutlet weak var occupationLabel: UILabel!
 //    @IBOutlet var tableView: UITableView!
-   
-    var titles: [String] = [
-        "Occupation",
-        "University",
-        "Idioms"]
-    var details: [String] = [
-        "Undergraduate in Computer Science",
-        "PUC-Rio, Brazil",
-        "English:Fluent \n Portuguese: Native \n French:Intermediate"]
     
     var font = UIFont(name: "Avenir-Book", size: 16)
+    let swiftColor = UIColor(red: 52/255, green:152/255, blue: 219/255, alpha: 1)
 
-    var selectedRowIndex: NSIndexPath = NSIndexPath(forRow: -1, inSection: 0)
-    var cellOpenHeight:CGFloat = 200
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         customizeBars()
@@ -91,7 +80,6 @@ class ProfileViewController:UIViewController {
     private func customizeBars() {
         var nav = navigationController?.navigationBar
         
-        let swiftColor = UIColor(red: 52/255, green:152/255, blue: 219/255, alpha: 1)
         nav!.barTintColor = swiftColor
         self.navigationController?.navigationBarHidden = false
         nav?.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]

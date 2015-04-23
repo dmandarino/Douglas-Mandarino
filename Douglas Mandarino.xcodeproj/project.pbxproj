@@ -21,6 +21,14 @@
 		5A18B0791AE758AD008CA5D5 /* bepid.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A18B0781AE758AD008CA5D5 /* bepid.png */; };
 		5A18B07F1AE76386008CA5D5 /* testFlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A18B07E1AE76386008CA5D5 /* testFlight.png */; };
 		5AAF0D811AE8396300060D59 /* b2w.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AAF0D801AE8396300060D59 /* b2w.png */; };
+		5AAF0D831AE8402D00060D59 /* b2wBrands.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AAF0D821AE8402D00060D59 /* b2wBrands.jpg */; };
+		5AAF0D851AE8734300060D59 /* ipp.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AAF0D841AE8734300060D59 /* ipp.png */; };
+		5AAF0D891AE875A200060D59 /* json.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AAF0D861AE875A200060D59 /* json.png */; };
+		5AAF0D8A1AE875A200060D59 /* multipeer.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AAF0D871AE875A200060D59 /* multipeer.png */; };
+		5AAF0D8B1AE875A200060D59 /* plist.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AAF0D881AE875A200060D59 /* plist.png */; };
+		5AAF0D901AE87DCD00060D59 /* sprite_kit.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AAF0D8D1AE87DCD00060D59 /* sprite_kit.png */; };
+		5AAF0D911AE87DCD00060D59 /* swift.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AAF0D8E1AE87DCD00060D59 /* swift.png */; };
+		5AAF0D931AE87E2500060D59 /* objective_c.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AAF0D921AE87E2500060D59 /* objective_c.png */; };
 		5ACD36A11ADDA52D0076AB33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACD36A01ADDA52D0076AB33 /* AppDelegate.swift */; };
 		5ACD36A61ADDA52D0076AB33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ACD36A41ADDA52D0076AB33 /* Main.storyboard */; };
 		5ACD36A81ADDA52D0076AB33 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ACD36A71ADDA52D0076AB33 /* Images.xcassets */; };
@@ -60,6 +68,14 @@
 		5A18B0781AE758AD008CA5D5 /* bepid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bepid.png; sourceTree = "<group>"; };
 		5A18B07E1AE76386008CA5D5 /* testFlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testFlight.png; sourceTree = "<group>"; };
 		5AAF0D801AE8396300060D59 /* b2w.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b2w.png; sourceTree = "<group>"; };
+		5AAF0D821AE8402D00060D59 /* b2wBrands.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b2wBrands.jpg; sourceTree = "<group>"; };
+		5AAF0D841AE8734300060D59 /* ipp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipp.png; sourceTree = "<group>"; };
+		5AAF0D861AE875A200060D59 /* json.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = json.png; path = images/json.png; sourceTree = "<group>"; };
+		5AAF0D871AE875A200060D59 /* multipeer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = multipeer.png; path = images/multipeer.png; sourceTree = "<group>"; };
+		5AAF0D881AE875A200060D59 /* plist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plist.png; path = images/plist.png; sourceTree = "<group>"; };
+		5AAF0D8D1AE87DCD00060D59 /* sprite_kit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sprite_kit.png; path = images/sprite_kit.png; sourceTree = "<group>"; };
+		5AAF0D8E1AE87DCD00060D59 /* swift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = swift.png; path = images/swift.png; sourceTree = "<group>"; };
+		5AAF0D921AE87E2500060D59 /* objective_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = objective_c.png; path = images/objective_c.png; sourceTree = "<group>"; };
 		5ACD369B1ADDA52D0076AB33 /* Douglas Mandarino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Douglas Mandarino.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ACD369F1ADDA52D0076AB33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5ACD36A01ADDA52D0076AB33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -100,9 +116,17 @@
 			isa = PBXGroup;
 			children = (
 				5A18B06C1AE6ED62008CA5D5 /* IMCPed.jpg */,
+				5AAF0D841AE8734300060D59 /* ipp.png */,
 				5A18B07E1AE76386008CA5D5 /* testFlight.png */,
 				5ADC542D1AE81B83001F9A02 /* appstore.png */,
+				5AAF0D861AE875A200060D59 /* json.png */,
+				5AAF0D921AE87E2500060D59 /* objective_c.png */,
+				5AAF0D871AE875A200060D59 /* multipeer.png */,
+				5AAF0D881AE875A200060D59 /* plist.png */,
+				5AAF0D8D1AE87DCD00060D59 /* sprite_kit.png */,
+				5AAF0D8E1AE87DCD00060D59 /* swift.png */,
 				5AAF0D801AE8396300060D59 /* b2w.png */,
+				5AAF0D821AE8402D00060D59 /* b2wBrands.jpg */,
 				5A18B06E1AE6ED93008CA5D5 /* GroupMatch.png */,
 			);
 			name = logos;
@@ -309,22 +333,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A18B0791AE758AD008CA5D5 /* bepid.png in Resources */,
+				5AAF0D891AE875A200060D59 /* json.png in Resources */,
+				5AAF0D8B1AE875A200060D59 /* plist.png in Resources */,
 				5A18B07F1AE76386008CA5D5 /* testFlight.png in Resources */,
 				5ACD36A61ADDA52D0076AB33 /* Main.storyboard in Resources */,
 				5A18B06F1AE6ED93008CA5D5 /* GroupMatch.png in Resources */,
 				5ACD36AB1ADDA52D0076AB33 /* LaunchScreen.xib in Resources */,
+				5AAF0D851AE8734300060D59 /* ipp.png in Resources */,
 				5A16C3161AE03B0D00FB6AEF /* me.jpg in Resources */,
 				5A18B06D1AE6ED62008CA5D5 /* IMCPed.jpg in Resources */,
+				5AAF0D931AE87E2500060D59 /* objective_c.png in Resources */,
 				5A16C3261AE04F9400FB6AEF /* User-32.png in Resources */,
 				5A16C3251AE04F9400FB6AEF /* Reading-32.png in Resources */,
 				5ACD36C61ADDB8420076AB33 /* Projects.plist in Resources */,
 				5ACD36A81ADDA52D0076AB33 /* Images.xcassets in Resources */,
 				5ACD36E61ADEFE770076AB33 /* appleLogo.png in Resources */,
+				5AAF0D8A1AE875A200060D59 /* multipeer.png in Resources */,
 				5AAF0D811AE8396300060D59 /* b2w.png in Resources */,
 				5A16C3241AE04F9400FB6AEF /* Ingredients List-32.png in Resources */,
 				5ADC542E1AE81B83001F9A02 /* appstore.png in Resources */,
+				5AAF0D831AE8402D00060D59 /* b2wBrands.jpg in Resources */,
 				5A16C3201AE04E8300FB6AEF /* Drop Zone-32.png in Resources */,
+				5AAF0D911AE87DCD00060D59 /* swift.png in Resources */,
 				5ACD36E81ADF06CC0076AB33 /* profile.png in Resources */,
+				5AAF0D901AE87DCD00060D59 /* sprite_kit.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
