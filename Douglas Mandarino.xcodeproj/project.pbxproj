@@ -41,6 +41,10 @@
 		5AAF0DAF1AEB385100060D59 /* me.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AAF0DAE1AEB385100060D59 /* me.png */; };
 		5AAF0DB11AEB42C100060D59 /* me1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AAF0DB01AEB42C100060D59 /* me1.png */; };
 		5AAF0DB31AEB6A5300060D59 /* MyAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAF0DB21AEB6A5300060D59 /* MyAnnotation.swift */; };
+		5AAF0DB61AEB78FB00060D59 /* exchange.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AAF0DB41AEB78FB00060D59 /* exchange.jpg */; };
+		5AAF0DB71AEB78FB00060D59 /* mySchoolEngland.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AAF0DB51AEB78FB00060D59 /* mySchoolEngland.jpg */; };
+		5AAF0DBA1AEBE20A00060D59 /* exchangeEngland.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AAF0DB91AEBE20A00060D59 /* exchangeEngland.png */; };
+		5AAF0DBC1AEBE5C400060D59 /* wwdc_2015_roundup.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AAF0DBB1AEBE5C400060D59 /* wwdc_2015_roundup.jpg */; };
 		5ACD36A11ADDA52D0076AB33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACD36A01ADDA52D0076AB33 /* AppDelegate.swift */; };
 		5ACD36A61ADDA52D0076AB33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ACD36A41ADDA52D0076AB33 /* Main.storyboard */; };
 		5ACD36A81ADDA52D0076AB33 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ACD36A71ADDA52D0076AB33 /* Images.xcassets */; };
@@ -99,6 +103,10 @@
 		5AAF0DAE1AEB385100060D59 /* me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = me.png; sourceTree = "<group>"; };
 		5AAF0DB01AEB42C100060D59 /* me1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = me1.png; sourceTree = "<group>"; };
 		5AAF0DB21AEB6A5300060D59 /* MyAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyAnnotation.swift; path = model/MyAnnotation.swift; sourceTree = "<group>"; };
+		5AAF0DB41AEB78FB00060D59 /* exchange.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = exchange.jpg; path = images/exchange.jpg; sourceTree = "<group>"; };
+		5AAF0DB51AEB78FB00060D59 /* mySchoolEngland.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mySchoolEngland.jpg; path = images/mySchoolEngland.jpg; sourceTree = "<group>"; };
+		5AAF0DB91AEBE20A00060D59 /* exchangeEngland.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = exchangeEngland.png; path = images/exchangeEngland.png; sourceTree = "<group>"; };
+		5AAF0DBB1AEBE5C400060D59 /* wwdc_2015_roundup.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = wwdc_2015_roundup.jpg; path = images/wwdc_2015_roundup.jpg; sourceTree = "<group>"; };
 		5ACD369B1ADDA52D0076AB33 /* Douglas Mandarino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Douglas Mandarino.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ACD369F1ADDA52D0076AB33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5ACD36A01ADDA52D0076AB33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -140,6 +148,7 @@
 				5A18B06C1AE6ED62008CA5D5 /* IMCPed.jpg */,
 				5AAF0D841AE8734300060D59 /* ipp.png */,
 				5A18B07E1AE76386008CA5D5 /* testFlight.png */,
+				5AAF0DBB1AEBE5C400060D59 /* wwdc_2015_roundup.jpg */,
 				5AAF0DA01AEA2EAB00060D59 /* c#.jpg */,
 				5AAF0DA21AEA2F6A00060D59 /* java.png */,
 				5ADC542D1AE81B83001F9A02 /* appstore.png */,
@@ -278,7 +287,10 @@
 			children = (
 				5A18B07D1AE76261008CA5D5 /* tab bar */,
 				5AAF0DAE1AEB385100060D59 /* me.png */,
+				5AAF0DB91AEBE20A00060D59 /* exchangeEngland.png */,
 				5ACD36E51ADEFE770076AB33 /* appleLogo.png */,
+				5AAF0DB41AEB78FB00060D59 /* exchange.jpg */,
+				5AAF0DB51AEB78FB00060D59 /* mySchoolEngland.jpg */,
 				5AAF0DB01AEB42C100060D59 /* me1.png */,
 				5A18B07C1AE76247008CA5D5 /* logos */,
 			);
@@ -367,6 +379,7 @@
 			files = (
 				5AAF0D891AE875A200060D59 /* json.png in Resources */,
 				5AAF0D8B1AE875A200060D59 /* plist.png in Resources */,
+				5AAF0DB71AEB78FB00060D59 /* mySchoolEngland.jpg in Resources */,
 				5A18B07F1AE76386008CA5D5 /* testFlight.png in Resources */,
 				5ACD36A61ADDA52D0076AB33 /* Main.storyboard in Resources */,
 				5A18B06F1AE6ED93008CA5D5 /* GroupMatch.png in Resources */,
@@ -374,6 +387,8 @@
 				5AAF0DAB1AEA33CC00060D59 /* sql.jpg in Resources */,
 				5AAF0D851AE8734300060D59 /* ipp.png in Resources */,
 				5A18B06D1AE6ED62008CA5D5 /* IMCPed.jpg in Resources */,
+				5AAF0DBA1AEBE20A00060D59 /* exchangeEngland.png in Resources */,
+				5AAF0DBC1AEBE5C400060D59 /* wwdc_2015_roundup.jpg in Resources */,
 				5AAF0D931AE87E2500060D59 /* objective_c.png in Resources */,
 				5AAF0DA11AEA2EAB00060D59 /* c#.jpg in Resources */,
 				5A16C3261AE04F9400FB6AEF /* User-32.png in Resources */,
@@ -381,6 +396,7 @@
 				5ACD36C61ADDB8420076AB33 /* Projects.plist in Resources */,
 				5AAF0DAF1AEB385100060D59 /* me.png in Resources */,
 				5ACD36A81ADDA52D0076AB33 /* Images.xcassets in Resources */,
+				5AAF0DB61AEB78FB00060D59 /* exchange.jpg in Resources */,
 				5ACD36E61ADEFE770076AB33 /* appleLogo.png in Resources */,
 				5AAF0D8A1AE875A200060D59 /* multipeer.png in Resources */,
 				5AAF0D971AE884EA00060D59 /* friendly.png in Resources */,

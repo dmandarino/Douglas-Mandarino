@@ -42,6 +42,7 @@ class BackgroundViewController:UIViewController, MKMapViewDelegate {
         customizeBars()
         
         PopUpView.alpha = 0.0
+        PopUpView.layer.zPosition = 1
         PopUpView.layer.cornerRadius = 5
         PopUpView.layer.masksToBounds = true
         PopUpView.layer.shadowOpacity = 0.8
@@ -84,10 +85,10 @@ class BackgroundViewController:UIViewController, MKMapViewDelegate {
     override func viewDidAppear(animated: Bool) {
         
 //         NSTimer.scheduledTimerWithTimeInterval(0.05, target: self, selector: Selector("update08"), userInfo: nil, repeats: false)
-         NSTimer.scheduledTimerWithTimeInterval(0.05, target: self, selector: Selector("update03"), userInfo: nil, repeats: false)
-         NSTimer.scheduledTimerWithTimeInterval(0.05, target: self, selector: Selector("update06"), userInfo: nil, repeats: false)
-         NSTimer.scheduledTimerWithTimeInterval(0.05, target: self, selector: Selector("update05"), userInfo: nil, repeats: false)
-         NSTimer.scheduledTimerWithTimeInterval(0.05, target: self, selector: Selector("update09"), userInfo: nil, repeats: false)
+         NSTimer.scheduledTimerWithTimeInterval(0.02, target: self, selector: Selector("update03"), userInfo: nil, repeats: false)
+         NSTimer.scheduledTimerWithTimeInterval(0.02, target: self, selector: Selector("update06"), userInfo: nil, repeats: false)
+         NSTimer.scheduledTimerWithTimeInterval(0.02, target: self, selector: Selector("update05"), userInfo: nil, repeats: false)
+         NSTimer.scheduledTimerWithTimeInterval(0.02, target: self, selector: Selector("update09"), userInfo: nil, repeats: false)
     }
     
     @IBAction func showDetails(sender: AnyObject) {
@@ -181,7 +182,7 @@ class BackgroundViewController:UIViewController, MKMapViewDelegate {
             self.circleGraph6.endArc += 0.1
             self.circleGraph4.endArc += 0.1
             
-            NSTimer.scheduledTimerWithTimeInterval(0.1, target: self, selector: Selector("update06"), userInfo: nil, repeats: false)
+            NSTimer.scheduledTimerWithTimeInterval(0.05, target: self, selector: Selector("update06"), userInfo: nil, repeats: false)
         }
     }
 
@@ -191,7 +192,7 @@ class BackgroundViewController:UIViewController, MKMapViewDelegate {
             self.circleGraph2.endArc += 0.1
             self.circleGraph5.endArc += 0.1
             
-            NSTimer.scheduledTimerWithTimeInterval(0.1, target: self, selector: Selector("update05"), userInfo: nil, repeats: false)
+            NSTimer.scheduledTimerWithTimeInterval(0.05, target: self, selector: Selector("update05"), userInfo: nil, repeats: false)
         }
     }
 
@@ -200,7 +201,7 @@ class BackgroundViewController:UIViewController, MKMapViewDelegate {
             self.circleGraph7.endArc += 0.1
             self.circleGraph3.endArc += 0.1
             
-            NSTimer.scheduledTimerWithTimeInterval(0.1, target: self, selector: Selector("update09"), userInfo: nil, repeats: false)
+            NSTimer.scheduledTimerWithTimeInterval(0.05, target: self, selector: Selector("update09"), userInfo: nil, repeats: false)
         }
     }
     
@@ -208,7 +209,7 @@ class BackgroundViewController:UIViewController, MKMapViewDelegate {
         if self.circleGraph8.endArc != CGFloat(0.2) {
             self.circleGraph8.endArc += 0.1
             
-            NSTimer.scheduledTimerWithTimeInterval(0.1, target: self, selector: Selector("update03"), userInfo: nil, repeats: false)
+            NSTimer.scheduledTimerWithTimeInterval(0.05, target: self, selector: Selector("update03"), userInfo: nil, repeats: false)
         }
     }
     
