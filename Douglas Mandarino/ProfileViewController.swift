@@ -25,7 +25,7 @@ class ProfileViewController:UIViewController {
         super.viewDidLoad()
         customizeBars()
         
-        name.font = UIFont(name: "Avenir-Book", size: 24)
+        name.font = UIFont(name: "Avenir-Book", size: 22)
         age.font = UIFont(name: "Avenir-Book", size: 16)
         occupationLabel.font = UIFont(name: "Avenir-Book", size: 16)
     }

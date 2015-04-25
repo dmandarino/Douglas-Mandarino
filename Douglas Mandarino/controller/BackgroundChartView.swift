@@ -16,11 +16,12 @@ class BackgroundChartView: UIView {
             setNeedsDisplay()
         }
     }
-    var arcWidth:CGFloat = 10.0
+    var arcWidth:CGFloat = 7.0
     var arcColor = UIColor.yellowColor()
     var arcBackgroundColor = UIColor.blackColor()
     
     override func drawRect(rect: CGRect) {
+        
         //Important constants for circle
         let fullCircle = 2.0 * CGFloat(M_PI)
         let start:CGFloat = -0.25 * fullCircle

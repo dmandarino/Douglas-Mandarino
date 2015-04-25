@@ -14,7 +14,7 @@ class CircleTransitionAnimator: NSObject, UIViewControllerAnimatedTransitioning 
     weak var transitionContext: UIViewControllerContextTransitioning?
     
     func transitionDuration(transitionContext: UIViewControllerContextTransitioning) -> NSTimeInterval {
-        return 0.5
+        return 1.0
     }
     
     func animateTransition(transitionContext: UIViewControllerContextTransitioning) {

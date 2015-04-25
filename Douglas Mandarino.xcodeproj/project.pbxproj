@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5A16C3161AE03B0D00FB6AEF /* me.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A16C3151AE03B0D00FB6AEF /* me.jpg */; };
 		5A16C3201AE04E8300FB6AEF /* Drop Zone-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A16C31F1AE04E8300FB6AEF /* Drop Zone-32.png */; };
 		5A16C3241AE04F9400FB6AEF /* Ingredients List-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A16C3211AE04F9400FB6AEF /* Ingredients List-32.png */; };
 		5A16C3251AE04F9400FB6AEF /* Reading-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A16C3221AE04F9400FB6AEF /* Reading-32.png */; };
@@ -32,6 +31,15 @@
 		5AAF0D971AE884EA00060D59 /* friendly.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AAF0D961AE884EA00060D59 /* friendly.png */; };
 		5AAF0D991AE9798800060D59 /* BackgroundChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAF0D981AE9798800060D59 /* BackgroundChartView.swift */; };
 		5AAF0D9B1AE97B2F00060D59 /* BackgroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAF0D9A1AE97B2F00060D59 /* BackgroundViewController.swift */; };
+		5AAF0DA11AEA2EAB00060D59 /* c#.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AAF0DA01AEA2EAB00060D59 /* c#.jpg */; };
+		5AAF0DA31AEA2F6A00060D59 /* java.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AAF0DA21AEA2F6A00060D59 /* java.png */; };
+		5AAF0DA51AEA300900060D59 /* javascript.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AAF0DA41AEA300900060D59 /* javascript.png */; };
+		5AAF0DA71AEA31D500060D59 /* spring.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AAF0DA61AEA31D500060D59 /* spring.png */; };
+		5AAF0DA91AEA333900060D59 /* git.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AAF0DA81AEA333900060D59 /* git.png */; };
+		5AAF0DAB1AEA33CC00060D59 /* sql.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AAF0DAA1AEA33CC00060D59 /* sql.jpg */; };
+		5AAF0DAD1AEA36BE00060D59 /* puc.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5AAF0DAC1AEA36BE00060D59 /* puc.gif */; };
+		5AAF0DAF1AEB385100060D59 /* me.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AAF0DAE1AEB385100060D59 /* me.png */; };
+		5AAF0DB11AEB42C100060D59 /* me1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AAF0DB01AEB42C100060D59 /* me1.png */; };
 		5ACD36A11ADDA52D0076AB33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACD36A01ADDA52D0076AB33 /* AppDelegate.swift */; };
 		5ACD36A61ADDA52D0076AB33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ACD36A41ADDA52D0076AB33 /* Main.storyboard */; };
 		5ACD36A81ADDA52D0076AB33 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ACD36A71ADDA52D0076AB33 /* Images.xcassets */; };
@@ -56,7 +64,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5A16C3151AE03B0D00FB6AEF /* me.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = me.jpg; sourceTree = "<group>"; };
 		5A16C31F1AE04E8300FB6AEF /* Drop Zone-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Drop Zone-32.png"; sourceTree = "<group>"; };
 		5A16C3211AE04F9400FB6AEF /* Ingredients List-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ingredients List-32.png"; sourceTree = "<group>"; };
 		5A16C3221AE04F9400FB6AEF /* Reading-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reading-32.png"; sourceTree = "<group>"; };
@@ -81,6 +88,15 @@
 		5AAF0D961AE884EA00060D59 /* friendly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = friendly.png; path = images/friendly.png; sourceTree = "<group>"; };
 		5AAF0D981AE9798800060D59 /* BackgroundChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BackgroundChartView.swift; path = controller/BackgroundChartView.swift; sourceTree = "<group>"; };
 		5AAF0D9A1AE97B2F00060D59 /* BackgroundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BackgroundViewController.swift; path = controller/BackgroundViewController.swift; sourceTree = "<group>"; };
+		5AAF0DA01AEA2EAB00060D59 /* c#.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "c#.jpg"; path = "images/c#.jpg"; sourceTree = "<group>"; };
+		5AAF0DA21AEA2F6A00060D59 /* java.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = java.png; path = images/java.png; sourceTree = "<group>"; };
+		5AAF0DA41AEA300900060D59 /* javascript.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = javascript.png; path = images/javascript.png; sourceTree = "<group>"; };
+		5AAF0DA61AEA31D500060D59 /* spring.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spring.png; path = images/spring.png; sourceTree = "<group>"; };
+		5AAF0DA81AEA333900060D59 /* git.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = git.png; path = images/git.png; sourceTree = "<group>"; };
+		5AAF0DAA1AEA33CC00060D59 /* sql.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sql.jpg; path = images/sql.jpg; sourceTree = "<group>"; };
+		5AAF0DAC1AEA36BE00060D59 /* puc.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = puc.gif; path = images/puc.gif; sourceTree = "<group>"; };
+		5AAF0DAE1AEB385100060D59 /* me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = me.png; sourceTree = "<group>"; };
+		5AAF0DB01AEB42C100060D59 /* me1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = me1.png; sourceTree = "<group>"; };
 		5ACD369B1ADDA52D0076AB33 /* Douglas Mandarino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Douglas Mandarino.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ACD369F1ADDA52D0076AB33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5ACD36A01ADDA52D0076AB33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -122,10 +138,17 @@
 				5A18B06C1AE6ED62008CA5D5 /* IMCPed.jpg */,
 				5AAF0D841AE8734300060D59 /* ipp.png */,
 				5A18B07E1AE76386008CA5D5 /* testFlight.png */,
+				5AAF0DA01AEA2EAB00060D59 /* c#.jpg */,
+				5AAF0DA21AEA2F6A00060D59 /* java.png */,
 				5ADC542D1AE81B83001F9A02 /* appstore.png */,
+				5AAF0DA41AEA300900060D59 /* javascript.png */,
 				5AAF0D961AE884EA00060D59 /* friendly.png */,
+				5AAF0DAA1AEA33CC00060D59 /* sql.jpg */,
+				5AAF0DAC1AEA36BE00060D59 /* puc.gif */,
 				5AAF0D861AE875A200060D59 /* json.png */,
+				5AAF0DA61AEA31D500060D59 /* spring.png */,
 				5AAF0D921AE87E2500060D59 /* objective_c.png */,
+				5AAF0DA81AEA333900060D59 /* git.png */,
 				5AAF0D941AE87FE600060D59 /* bepid.png */,
 				5AAF0D871AE875A200060D59 /* multipeer.png */,
 				5AAF0D881AE875A200060D59 /* plist.png */,
@@ -251,8 +274,9 @@
 			isa = PBXGroup;
 			children = (
 				5A18B07D1AE76261008CA5D5 /* tab bar */,
-				5A16C3151AE03B0D00FB6AEF /* me.jpg */,
+				5AAF0DAE1AEB385100060D59 /* me.png */,
 				5ACD36E51ADEFE770076AB33 /* appleLogo.png */,
+				5AAF0DB01AEB42C100060D59 /* me1.png */,
 				5A18B07C1AE76247008CA5D5 /* logos */,
 			);
 			name = images;
@@ -344,23 +368,31 @@
 				5ACD36A61ADDA52D0076AB33 /* Main.storyboard in Resources */,
 				5A18B06F1AE6ED93008CA5D5 /* GroupMatch.png in Resources */,
 				5ACD36AB1ADDA52D0076AB33 /* LaunchScreen.xib in Resources */,
+				5AAF0DAB1AEA33CC00060D59 /* sql.jpg in Resources */,
 				5AAF0D851AE8734300060D59 /* ipp.png in Resources */,
-				5A16C3161AE03B0D00FB6AEF /* me.jpg in Resources */,
 				5A18B06D1AE6ED62008CA5D5 /* IMCPed.jpg in Resources */,
 				5AAF0D931AE87E2500060D59 /* objective_c.png in Resources */,
+				5AAF0DA11AEA2EAB00060D59 /* c#.jpg in Resources */,
 				5A16C3261AE04F9400FB6AEF /* User-32.png in Resources */,
 				5A16C3251AE04F9400FB6AEF /* Reading-32.png in Resources */,
 				5ACD36C61ADDB8420076AB33 /* Projects.plist in Resources */,
+				5AAF0DAF1AEB385100060D59 /* me.png in Resources */,
 				5ACD36A81ADDA52D0076AB33 /* Images.xcassets in Resources */,
 				5ACD36E61ADEFE770076AB33 /* appleLogo.png in Resources */,
 				5AAF0D8A1AE875A200060D59 /* multipeer.png in Resources */,
 				5AAF0D971AE884EA00060D59 /* friendly.png in Resources */,
+				5AAF0DAD1AEA36BE00060D59 /* puc.gif in Resources */,
 				5AAF0D811AE8396300060D59 /* b2w.png in Resources */,
+				5AAF0DB11AEB42C100060D59 /* me1.png in Resources */,
 				5A16C3241AE04F9400FB6AEF /* Ingredients List-32.png in Resources */,
 				5AAF0D951AE87FE600060D59 /* bepid.png in Resources */,
 				5ADC542E1AE81B83001F9A02 /* appstore.png in Resources */,
+				5AAF0DA91AEA333900060D59 /* git.png in Resources */,
 				5AAF0D831AE8402D00060D59 /* b2wBrands.jpg in Resources */,
+				5AAF0DA71AEA31D500060D59 /* spring.png in Resources */,
+				5AAF0DA51AEA300900060D59 /* javascript.png in Resources */,
 				5A16C3201AE04E8300FB6AEF /* Drop Zone-32.png in Resources */,
+				5AAF0DA31AEA2F6A00060D59 /* java.png in Resources */,
 				5AAF0D911AE87DCD00060D59 /* swift.png in Resources */,
 				5AAF0D901AE87DCD00060D59 /* sprite_kit.png in Resources */,
 			);
