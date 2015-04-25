@@ -1945,26 +1945,29 @@ It is already on Test Flight wating for review in App Store.</string>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eXb-A9-QQi">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="193" id="N02-ch-mjV"/>
-                                    <constraint firstAttribute="height" constant="30" id="ZMH-QX-EQd"/>
+                                    <constraint firstAttribute="width" constant="227" id="7Nr-MB-r4t"/>
+                                    <constraint firstAttribute="height" constant="33" id="kgu-zf-PZd"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <state key="normal" title="Tap to see after WWDC">
+                                <state key="normal" title="Tap here for more Information">
                                     <color key="titleColor" red="0.84313725490196079" green="0.17254901960784313" blue="0.19215686274509805" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="N02-ch-mjV"/>
-                                        <exclude reference="ZMH-QX-EQd"/>
+                                        <exclude reference="7Nr-MB-r4t"/>
+                                        <exclude reference="kgu-zf-PZd"/>
                                     </mask>
                                 </variation>
                                 <variation key="widthClass=compact">
                                     <mask key="constraints">
-                                        <include reference="N02-ch-mjV"/>
-                                        <include reference="ZMH-QX-EQd"/>
+                                        <include reference="7Nr-MB-r4t"/>
+                                        <include reference="kgu-zf-PZd"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="showDetails:" destination="jg6-fc-gOK" eventType="touchUpInside" id="XWW-Zk-nfz"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EEY-Xw-qcb">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -2364,15 +2367,65 @@ It is already on Test Flight wating for review in App Store.</string>
                                     </mask>
                                 </variation>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zTe-sR-8VJ" userLabel="ContainerView">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="h0P-LX-5XY">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="0.0" y="0.0" width="345" height="333"/>
+                                        </variation>
+                                    </mapView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d7t-sm-AVe" userLabel="image">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                        <color key="backgroundColor" red="0.0" green="0.80000000000000004" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="0.0" y="0.0" width="345" height="333"/>
+                                        </variation>
+                                    </view>
+                                </subviews>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="345" id="Owv-QO-X2x"/>
+                                    <constraint firstAttribute="height" constant="333" id="gaI-4F-Ifu"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="h0P-LX-5XY"/>
+                                        <exclude reference="d7t-sm-AVe"/>
+                                    </mask>
+                                    <mask key="constraints">
+                                        <exclude reference="Owv-QO-X2x"/>
+                                        <exclude reference="gaI-4F-Ifu"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="subviews">
+                                        <include reference="h0P-LX-5XY"/>
+                                        <include reference="d7t-sm-AVe"/>
+                                    </mask>
+                                    <mask key="constraints">
+                                        <include reference="Owv-QO-X2x"/>
+                                        <include reference="gaI-4F-Ifu"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="3XA-pW-VDD" appends="YES" id="Wk4-2M-CQ8"/>
+                                </connections>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
                         <constraints>
+                            <constraint firstItem="eXb-A9-QQi" firstAttribute="top" secondItem="vlW-6K-wqF" secondAttribute="bottom" constant="454" id="1AY-jJ-btc"/>
                             <constraint firstAttribute="centerX" secondItem="EEY-Xw-qcb" secondAttribute="centerX" id="3FR-6M-4lN"/>
                             <constraint firstItem="Iff-UD-TWU" firstAttribute="top" secondItem="eXb-A9-QQi" secondAttribute="bottom" id="4lt-1R-wZq"/>
+                            <constraint firstAttribute="centerX" secondItem="zTe-sR-8VJ" secondAttribute="centerX" constant="-0.5" id="GUe-MV-fcR"/>
+                            <constraint firstAttribute="centerY" secondItem="zTe-sR-8VJ" secondAttribute="centerY" constant="-6.5" id="QUZ-Eo-XKZ"/>
                             <constraint firstAttribute="centerX" secondItem="eXb-A9-QQi" secondAttribute="centerX" constant="-0.5" id="UC6-ut-Wqc"/>
                             <constraint firstItem="Aq5-xI-5J6" firstAttribute="top" secondItem="vlW-6K-wqF" secondAttribute="bottom" constant="8" id="aef-UG-6hc"/>
                             <constraint firstAttribute="centerX" secondItem="Aq5-xI-5J6" secondAttribute="centerX" constant="-0.5" id="cP6-Lh-Rjc"/>
-                            <constraint firstItem="eXb-A9-QQi" firstAttribute="top" secondItem="vlW-6K-wqF" secondAttribute="bottom" constant="457" id="kre-OK-0nt"/>
+                            <constraint firstItem="Iff-UD-TWU" firstAttribute="top" secondItem="eXb-A9-QQi" secondAttribute="bottom" id="rFN-iO-ggn"/>
                             <constraint firstItem="EEY-Xw-qcb" firstAttribute="top" secondItem="vlW-6K-wqF" secondAttribute="bottom" constant="159" id="zMd-Fp-ftM"/>
                         </constraints>
                         <variation key="default">
@@ -2381,15 +2434,19 @@ It is already on Test Flight wating for review in App Store.</string>
                                 <exclude reference="Aq5-xI-5J6"/>
                                 <exclude reference="eXb-A9-QQi"/>
                                 <exclude reference="EEY-Xw-qcb"/>
+                                <exclude reference="zTe-sR-8VJ"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="aef-UG-6hc"/>
                                 <exclude reference="cP6-Lh-Rjc"/>
+                                <exclude reference="GUe-MV-fcR"/>
+                                <exclude reference="QUZ-Eo-XKZ"/>
                                 <exclude reference="3FR-6M-4lN"/>
                                 <exclude reference="zMd-Fp-ftM"/>
+                                <exclude reference="1AY-jJ-btc"/>
                                 <exclude reference="UC6-ut-Wqc"/>
-                                <exclude reference="kre-OK-0nt"/>
                                 <exclude reference="4lt-1R-wZq"/>
+                                <exclude reference="rFN-iO-ggn"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -2398,20 +2455,25 @@ It is already on Test Flight wating for review in App Store.</string>
                                 <include reference="Aq5-xI-5J6"/>
                                 <include reference="eXb-A9-QQi"/>
                                 <include reference="EEY-Xw-qcb"/>
+                                <include reference="zTe-sR-8VJ"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="aef-UG-6hc"/>
                                 <include reference="cP6-Lh-Rjc"/>
+                                <include reference="GUe-MV-fcR"/>
+                                <include reference="QUZ-Eo-XKZ"/>
                                 <include reference="3FR-6M-4lN"/>
                                 <include reference="zMd-Fp-ftM"/>
+                                <include reference="1AY-jJ-btc"/>
                                 <include reference="UC6-ut-Wqc"/>
-                                <include reference="kre-OK-0nt"/>
                                 <include reference="4lt-1R-wZq"/>
+                                <include reference="rFN-iO-ggn"/>
                             </mask>
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Background" id="ayh-za-35U"/>
                     <connections>
+                        <outlet property="PopUpView" destination="zTe-sR-8VJ" id="I33-o6-K07"/>
                         <outlet property="button" destination="eXb-A9-QQi" id="OCF-zR-uBc"/>
                         <outlet property="circleGraph1" destination="faV-St-FLN" id="4Qc-Yi-rYN"/>
                         <outlet property="circleGraph2" destination="lKx-Lw-NTn" id="gIS-fN-zcF"/>
@@ -2421,9 +2483,16 @@ It is already on Test Flight wating for review in App Store.</string>
                         <outlet property="circleGraph6" destination="zg0-Hp-B3r" id="U8J-6G-OpM"/>
                         <outlet property="circleGraph7" destination="F9r-vm-BGA" id="kno-Zd-rys"/>
                         <outlet property="circleGraph8" destination="y20-zs-ObJ" id="uf6-Fd-nrx"/>
+                        <outlet property="imageView" destination="d7t-sm-AVe" id="aks-rZ-3QW"/>
+                        <outlet property="map" destination="h0P-LX-5XY" id="iWd-Da-tjG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NGi-4O-bZb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="3XA-pW-VDD">
+                    <connections>
+                        <action selector="counterViewTap:" destination="jg6-fc-gOK" id="IcP-1q-kpG"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="-75" y="1435"/>
         </scene>

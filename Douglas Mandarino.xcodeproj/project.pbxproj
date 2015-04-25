@@ -40,6 +40,7 @@
 		5AAF0DAD1AEA36BE00060D59 /* puc.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5AAF0DAC1AEA36BE00060D59 /* puc.gif */; };
 		5AAF0DAF1AEB385100060D59 /* me.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AAF0DAE1AEB385100060D59 /* me.png */; };
 		5AAF0DB11AEB42C100060D59 /* me1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AAF0DB01AEB42C100060D59 /* me1.png */; };
+		5AAF0DB31AEB6A5300060D59 /* MyAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAF0DB21AEB6A5300060D59 /* MyAnnotation.swift */; };
 		5ACD36A11ADDA52D0076AB33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACD36A01ADDA52D0076AB33 /* AppDelegate.swift */; };
 		5ACD36A61ADDA52D0076AB33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ACD36A41ADDA52D0076AB33 /* Main.storyboard */; };
 		5ACD36A81ADDA52D0076AB33 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ACD36A71ADDA52D0076AB33 /* Images.xcassets */; };
@@ -97,6 +98,7 @@
 		5AAF0DAC1AEA36BE00060D59 /* puc.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = puc.gif; path = images/puc.gif; sourceTree = "<group>"; };
 		5AAF0DAE1AEB385100060D59 /* me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = me.png; sourceTree = "<group>"; };
 		5AAF0DB01AEB42C100060D59 /* me1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = me1.png; sourceTree = "<group>"; };
+		5AAF0DB21AEB6A5300060D59 /* MyAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyAnnotation.swift; path = model/MyAnnotation.swift; sourceTree = "<group>"; };
 		5ACD369B1ADDA52D0076AB33 /* Douglas Mandarino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Douglas Mandarino.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ACD369F1ADDA52D0076AB33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5ACD36A01ADDA52D0076AB33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -244,6 +246,7 @@
 		5ACD36C31ADDA5BD0076AB33 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				5AAF0DB21AEB6A5300060D59 /* MyAnnotation.swift */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -413,6 +416,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A16C32C1AE067B200FB6AEF /* ProjectsViewController.swift in Sources */,
+				5AAF0DB31AEB6A5300060D59 /* MyAnnotation.swift in Sources */,
 				5ACD36D11ADDC3960076AB33 /* TableViewController.swift in Sources */,
 				5AAF0D9B1AE97B2F00060D59 /* BackgroundViewController.swift in Sources */,
 				5AAF0D991AE9798800060D59 /* BackgroundChartView.swift in Sources */,
